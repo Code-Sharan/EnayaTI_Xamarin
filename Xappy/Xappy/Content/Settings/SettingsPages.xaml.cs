@@ -1,0 +1,45 @@
+﻿using Xamarin.Forms;
+using Xamarin.Forms.Xaml;
+using Xappy.Services;
+
+
+namespace Xappy.Content.Settings
+{
+    [XamlCompilation(XamlCompilationOptions.Skip)]
+    public partial class SettingsPages : ContentPage
+    {
+        public SettingsPages()
+        {
+            InitializeComponent();
+        }
+
+        async void Handle_CloseClicked(object sender, System.EventArgs e)
+        {
+            await Shell.Current.Navigation.PopModalAsync();
+        }
+
+        void Handle_Clicked(object sender, System.EventArgs e)
+        {
+            SettingsService.UseFlyout(this);
+        }
+
+        void Handle_Clicked_1(object sender, System.EventArgs e)
+        {
+            SettingsService.UseTabs(this);
+        }
+
+        void Handle_Clicked_2(object sender, System.EventArgs e)
+        {
+            Application.Current.Resources["CurrentTheme"] = Application.Current.Resources["BaseStyle"];
+        }
+
+        void Handle_Clicked_3(object sender, System.EventArgs e)
+        {
+            Application.Current.Resources["CurrentTheme"] = Application.Current.Resources["SecondaryShell"];
+        }
+        void Handle_Clicked_4(object sender, System.EventArgs e)
+        {
+            Navigation.PopModalAsync();
+        }
+    }
+}

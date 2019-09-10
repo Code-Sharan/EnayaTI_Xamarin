@@ -1,0 +1,194 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy.Android/Xappy.Android.csproj": {}
+  },
+  "projects": {
+    "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy.Android/Xappy.Android.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy.Android/Xappy.Android.csproj",
+        "projectName": "Xappy.Android",
+        "projectPath": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy.Android/Xappy.Android.csproj",
+        "packagesPath": "/Users/simpragma/.nuget/packages/",
+        "outputPath": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy.Android/obj/",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "configFilePaths": [
+          "/Users/simpragma/Projects/Xappy-master/NuGet.Config",
+          "/Users/simpragma/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "monoandroid90"
+        ],
+        "sources": {
+          "https://aka.ms/xf-ci/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "monoandroid90": {
+            "projectReferences": {
+              "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/Xappy.csproj": {
+                "projectPath": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/Xappy.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "monoandroid90": {
+          "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.1.1.1-beta, )"
+            },
+            "Xamarin.AndroidX.AppCompat": {
+              "target": "Package",
+              "version": "[1.0.2-preview01, )"
+            },
+            "Xamarin.AndroidX.Browser": {
+              "target": "Package",
+              "version": "[1.0.0-preview01, )"
+            },
+            "Xamarin.AndroidX.Legacy.Support.V4": {
+              "target": "Package",
+              "version": "[1.0.0-preview01, )"
+            },
+            "Xamarin.AndroidX.Media": {
+              "target": "Package",
+              "version": "[1.0.1-preview01, )"
+            },
+            "Xamarin.AndroidX.Migration": {
+              "target": "Package",
+              "version": "[1.0.0-preview01, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            },
+            "Xamarin.Forms.Visual.Material": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            },
+            "Xamarin.Google.Android.Material": {
+              "target": "Package",
+              "version": "[1.0.0-preview01, )"
+            }
+          }
+        }
+      }
+    },
+    "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/Xappy.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/Xappy.csproj",
+        "projectName": "Xappy",
+        "projectPath": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/Xappy.csproj",
+        "packagesPath": "/Users/simpragma/.nuget/packages/",
+        "outputPath": "/Users/simpragma/Projects/Xappy-master/Xappy/Xappy/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/simpragma/Projects/Xappy-master/NuGet.Config",
+          "/Users/simpragma/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://aka.ms/xf-ci/index.json": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "Com.Airbnb.Xamarin.Forms.Lottie": {
+              "target": "Package",
+              "version": "[3.0.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "Octokit": {
+              "target": "Package",
+              "version": "[0.32.0, )"
+            },
+            "RestSharp": {
+              "target": "Package",
+              "version": "[106.6.10, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[4.6.0-preview6.19303.8, )"
+            },
+            "Xam.Plugins.Forms.ImageCircle": {
+              "target": "Package",
+              "version": "[3.1.1.1-beta, )"
+            },
+            "Xamanimation": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            },
+            "Xamarin.Forms.EasyLoading": {
+              "target": "Package",
+              "version": "[1.0.5-beta, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            },
+            "Xamarin.Forms.Visual.Material": {
+              "target": "Package",
+              "version": "[4.3.0.930-nightly, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

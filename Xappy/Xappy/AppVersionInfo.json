@@ -1,0 +1,39 @@
+﻿[
+  {
+    "Version": "0.0.0.1",
+    "Description": "Our First Sprint",
+    "Features": [
+      { "Description": "- Feature 1: Main Page insurance card view designing." }
+    ],
+    "BugFixes": null
+  }
+  //},
+  //{
+  //  "Version": "0.0.0.2",
+  //  "Description": "Our second app release",
+  //  "Features": [
+  //    { "Description": "- Feature 1" },
+  //    { "Description": "- Feature 2" }
+  //  ],
+  //  "BugFixes": [
+  //    { "Description": "- Bug 1" },
+  //    { "Description": "- Bug 2" },
+  //    { "Description": "- Bug 3" }
+  //  ]
+  //},
+  //{
+  //  "Version": "0.0.0.3",
+  //  "Description": "Our third app release",
+  //  "Features": [
+  //    { "Description": "- Feature 1" },
+  //    { "Description": "- Feature 2" },
+  //    { "Description": "- Feature 3" }
+  //  ],
+  //  "BugFixes": [
+  //    { "Description": "- Bug 1" },
+  //    { "Description": "- Bug 2" },
+  //    { "Description": "- Bug 3" },
+  //    { "Description": "- Bug 4" }
+  //  ]
+  //}
+]
